@@ -1,4 +1,4 @@
-# Plots stats for CloudWatch EC2 metrics for a given instance id.
+# EC2 instance CloudWatch metrics plotter.
 
 + *Statistics*:
 	Sum,Maximum,Minimum,SampleCount,Average
