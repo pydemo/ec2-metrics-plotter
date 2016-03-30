@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+  <title>EC2 Metrics generator.</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style type="text/css">
+    body {
+      background-color: #002b36;
+      color: #FFFFFF;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    div {
+      background-color: #073642;
+      border-radius: 0.25em;
+      margin: 1em auto;
+      padding: 2em;
+      width: 900px;
+    }
+    p {
+      font-size: 16px;
+      padding-bottom: 1.5em;
+    }
+    a:link, a:visited {
+      color: #93a1a1;
+      font-size: 24px;
+      text-decoration: underline;
+    }
+	
+    img {
+      padding: 0.1em;
+      border-radius: 0.25em;
+    }
+	table{
+    table-layout: fixed;
+	}
+	td{
+    word-wrap:break-word
+	}
+  </style>
+</head>
+<body>
+<div>
+REGION: <span style="color:red; weight=bold">us-west-2</span> <table><th align=Left> Argsuments<th align=Left>CLI Command<tr><td><table><tr><td><b>from_min<td>2000<tr><td><b>instance<td style="max-width:350px;"><span style="max-width:350px;">i-fe9cea26</span><tr><td><b>metric_name<td style="max-width:350px;"><span style="max-width:350px;">CPUCreditBalance</span><tr><td><b>namespace<td style="max-width:350px;"><span style="max-width:350px;">AWS/EC2</span><tr><td><b>period_min<td>30<tr><td><b>plot_dir<td style="max-width:350px;"><span style="max-width:350px;">c:\Python35-32\plots</span><tr><td><b>show_plot<td>False<tr><td><b>show_report<td>True<tr><td><b>statistic<td style="max-width:350px;"><span style="max-width:350px;">Sum,Maximum,Minimum,SampleCount,Average</span><tr><td><b>timestamp<td style="max-width:350px;"><span style="max-width:350px;">CPUCreditBalance</span><tr><td><b>to_min<td>0</table><td valign=top style="max-width:450px;" ><span style="max-width:450px;">PROJECTS\plotEC2metrics.exe --from_min 2000 --instance i-fe9cea26 --metric_name CPUCreditBalance --namespace AWS/EC2 --period_min 30 --plot_dir c:\Python35-32\plots --show_report --statistic Sum,Maximum,Minimum,SampleCount,Average --timestamp CPUCreditBalance</span></table>
+<br><table><tr><td>CPUCreditBalance Average 30 i-fe9cea26<td>CPUCreditBalance Maximum 30 i-fe9cea26<td>CPUCreditBalance Minimum 30 i-fe9cea26<td>CPUCreditBalance SampleCount 30 i-fe9cea26<tr ><td>
+<a href="by_metric\CPUCreditBalance\Average\30\CPUCreditBalance.Average.30.i-fe9cea26.png" ><img height="150" title="CPUCreditBalance.Average.30.i-fe9cea26.png" src="by_metric\CPUCreditBalance\Average\30\CPUCreditBalance.Average.30.i-fe9cea26.png"></a><td>
+<a href="by_metric\CPUCreditBalance\Maximum\30\CPUCreditBalance.Maximum.30.i-fe9cea26.png" ><img height="150" title="CPUCreditBalance.Maximum.30.i-fe9cea26.png" src="by_metric\CPUCreditBalance\Maximum\30\CPUCreditBalance.Maximum.30.i-fe9cea26.png"></a><td>
+<a href="by_metric\CPUCreditBalance\Minimum\30\CPUCreditBalance.Minimum.30.i-fe9cea26.png" ><img height="150" title="CPUCreditBalance.Minimum.30.i-fe9cea26.png" src="by_metric\CPUCreditBalance\Minimum\30\CPUCreditBalance.Minimum.30.i-fe9cea26.png"></a><td>
+<a href="by_metric\CPUCreditBalance\SampleCount\30\CPUCreditBalance.SampleCount.30.i-fe9cea26.png" ><img height="150" title="CPUCreditBalance.SampleCount.30.i-fe9cea26.png" src="by_metric\CPUCreditBalance\SampleCount\30\CPUCreditBalance.SampleCount.30.i-fe9cea26.png"></a><tr><td>CPUCreditBalance Sum 30 i-fe9cea26<td><td><td><tr ><td>
+<a href="by_metric\CPUCreditBalance\Sum\30\CPUCreditBalance.Sum.30.i-fe9cea26.png" ><img height="150" title="CPUCreditBalance.Sum.30.i-fe9cea26.png" src="by_metric\CPUCreditBalance\Sum\30\CPUCreditBalance.Sum.30.i-fe9cea26.png"></a><td><td><td></table>
+</div></body></html>
