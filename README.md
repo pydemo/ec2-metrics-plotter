@@ -1,7 +1,7 @@
-# CloudWatch EC2 metric stats plotter.
+# CloudWatch AWS/EC2 instance metrics plotter.
 Purpose:
- Generate and plot statistics for CloudWatch EC2 instance.
- All Metrics and statistics are supported
+    - Generate and plot statistics for CloudWatch EC2 instance.
+    - All Metrics and statistics are supported
  
 
 + *Statistics*:
