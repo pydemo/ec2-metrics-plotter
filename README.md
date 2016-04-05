@@ -29,7 +29,7 @@ Windows|32bit|[0.1.0 beta]
 - Helps you generate plots on demand and review them using generated html report.
 
 ## How it works
-- plotEC2metrics.exe connects to EC2 and reads datapoints for given CloudWatch EC2 instance/metric/statistic combo.
+- ec2metrics.exe connects to EC2 and reads datapoints for given CloudWatch EC2 instance/metric/statistic combo.
 - Using matplotlib plot is created and saved on the filesystem.
 - Html report is generated allowing preview saved metric plots.
 - It will not work for group CloudWatch EC2 instances metrics.
