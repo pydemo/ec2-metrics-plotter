@@ -213,7 +213,7 @@ Reports include all plot for a given script execution. You can see all plots on 
 
 
 #### What technology was used to create this tool
-I used Python, matplotlib.pyplot, and boto3 to write it and pyInstalled to compile it in 64-bit windows executable.
+I used `Python`, `matplotlib.pyplot`, and `boto3` to write it and `pyInstaller` to compile it in 64-bit windows executable.
 
 #### do you use CloudWatch AWS CLI?
 No, I use boto3 to make cals to CloudWatch API.
