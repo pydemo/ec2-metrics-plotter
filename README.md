@@ -232,12 +232,6 @@ No
 #### Does it use S3 to read metrics?
 No, it uses AWS API to read metrics directly from CloudWatch bypassing reports generated on S3.
 
-#### Does it create target Redshift table?
-By default no, but using [include\loader.py](https://github.com/alexbuz/Oracle-To-Redshift-Data-Loader/blob/master/dist-64bit/include/loader.py) you can extend default functionality and code in target table creation.
-
-#### Can I execute multiple loaders in parallel?
-Yes. Use Windows CLI Powershell to schedule multiple loaders in parallel.
-
 #### Where are the sources?
 Please, contact me for sources.
 
