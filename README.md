@@ -205,7 +205,7 @@ Yes. Assuming they are doing it on OS Windows.
 
 #### Explain how you generate plots.
 I use `matplotlib.pyplot` Python module to do it.
-Script is accessing CloudWatch using boto, retrievint metric data and generating plot inages.
+Script is accessing CloudWatch using boto, retrieving metric data and generating plot images.
 
 
 #### Explain what is included in HTML reports?
