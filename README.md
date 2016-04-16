@@ -192,3 +192,72 @@ Report is generated with preview for all plots created with this job.
 
 ##Download
 * [Master Release](https://github.com/alexbuz/EC2_Metrics_Plotter/archive/master.zip) -- `ec2metrics 0.1.0`
+
+
+#   
+#FAQ
+#  
+#### Can I genereate images of all metrics?
+Yes, it is the main purpose of this tool.
+
+#### Can developers integrate `EC2_Metrics_Plotter` into their ETL pipelines?
+Yes. Assuming they are doing it on OS Windows.
+
+#### Explain how you generate plots.
+I use `matplotlib.pyplot` Python module to do it.
+Script is accessing CloudWatch using boto, retrievint metric data and generating plot inages.
+
+
+#### Explain what is included in HTML reports?
+Reports include all plot for a given script execution. You can see all plots on one page.
+
+
+#### What technology was used to create this tool
+I used Python, matplotlib.pyplot, and boto3 to write it and pyInstalled to compile it in 64-bit windows executable.
+
+#### do you use CloudWatch AWS CLI?
+No, I use boto3 to make cals to CloudWatch API.
+
+#### What CloudWatch metrics are included?
+This version of Metrics Plotter is tested for EC2 metrics only.
+Metrics included:
+    CPUUtilization,NetworkIn,NetworkOut,NetworkPacketsIn,
+    NetworkPacketsOut,DiskWriteBytes,DiskReadBytes,DiskWriteOps,
+    DiskReadOps,CPUCreditBalance,CPUCreditUsage,StatusCheckFailed,
+    StatusCheckFailed_Instance,StatusCheckFailed_System
+	
+#### Does it extract CloudWatch metrics data in csv file?
+No
+
+#### Does it use S3 to read metrics?
+No, it uses API API to read metrics directly from CloudWatch bypassing reports generated on S3.
+
+#### Does it create target Redshift table?
+By default no, but using [include\loader.py](https://github.com/alexbuz/Oracle-To-Redshift-Data-Loader/blob/master/dist-64bit/include/loader.py) you can extend default functionality and code in target table creation.
+
+#### Can I execute multiple loaders in parallel?
+Yes. Use Windows CLI Powershell to schedule multiple loaders in parallel.
+
+#### Where are the sources?
+Please, contact me for sources.
+
+#### Can you modify functionality and add features?
+Yes, please, ask me for new features.
+
+#### What other AWS tools you've created?
+- [Oracle_To_S3_Data_Uploader] (https://github.com/alexbuz/Oracle_To_S3_Data_Uploader) - Stream Oracle data to Amazon- S3.
+- [CSV_Loader_For_Redshift] (https://github.com/alexbuz/CSV_Loader_For_Redshift/blob/master/README.md) - Append CSV data to Amazon-Redshift from Windows.
+- [S3_Sanity_Check] (https://github.com/alexbuz/S3_Sanity_Check/blob/master/README.md) - let's you `ping` Amazon-S3 bucket to see if it's publicly readable.
+- [Oracle-To-Redshift-Data-Loader](https://github.com/alexbuz/Oracle-To-Redshift-Data-Loader) - plots any CloudWatch EC2 instance  metric stats.
+- [S3_File_Uploader](https://github.com/alexbuz/S3_File_Uploader/blob/master/README.md) - uploads file from Windows to S3.
+
+#### Do you have any AWS Certifications?
+Yes, [AWS Certified Developer (Associate)](https://raw.githubusercontent.com/alexbuz/FAQs/master/images/AWS_Ceritied_Developer_Associate.png)
+
+#### Can you create similar/custom data tool for our business?
+Yes, you can PM me here or email at `alex_buz@yahoo.com`.
+I'll get back to you within hours.
+
+###Links
+ - [Employment FAQ](https://github.com/alexbuz/FAQs/blob/master/README.md)
+
