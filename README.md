@@ -216,6 +216,8 @@ Script is accessing CloudWatch using boto, retrieving metric data and generating
 #### Explain what is included in HTML reports?
 Reports include all plot for a given script execution. You can see all plots on one page.
 
+#### Will it work for 2 instances in 2 different regions.
+No, you need detailed monitoring to support aggregate statistics.
 
 #### What technology was used to create this tool
 I used `Python`, `matplotlib.pyplot`, and `boto3` to write it and `pyInstaller` to compile it in 64-bit windows executable.
