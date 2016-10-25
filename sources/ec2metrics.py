@@ -3,6 +3,9 @@
 ## Generates matplotlib plots for given instance/statistic/metric.
 ##
 Usage:  
+#---------------------------------------------------------------------- 
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+#----------------------------------------------------------------------
   set AWS_ACCESS_KEY_ID=<you access key>
   set AWS_SECRET_ACCESS_KEY=<you secret key>
   set AWS_DEFAULT_REGION=<your region > (for example:us-west-2 ) 
