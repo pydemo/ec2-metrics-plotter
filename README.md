@@ -17,18 +17,18 @@ Included:
 Wrote using Python/boto3.
 Compiled using PyInstaller
 
-##Other scripts
+## Other scripts
   - [Oracle -> Redshift](https://github.com/alexbuz/Oracle-To-Redshift-Data-Loader/blob/master/README.md) data loader
   - [PostgreSQL -> Redshift](https://github.com/alexbuz/PostgreSQL_To_Redshift_Loader/blob/master/README.md) data loader
   - [MySQL -> Redshift](https://github.com/alexbuz/MySQL_To_Redshift_Loader/blob/master/README.md) data loader
   - [Oracle -> S3](https://github.com/alexbuz/Oracle_To_S3_Data_Uploader/blob/master/README.md) data loader
   - [CSV -> Redshift](https://github.com/alexbuz/CSV_Loader_For_Redshift/blob/master/README.md) data loader
-  - [EC2 Metcics Plotter] (https://github.com/alexbuz/EC2_Metrics_Plotter/blob/master/README.md)
-  - [Oracle->Oracle] (https://github.com/alexbuz/TabZilla/blob/master/README.md) data loader.
-  - [Oracle->MySQL] (https://github.com/alexbuz/Oracle-to-MySQL-DataMigrator/blob/master/README.txt) data loader.
-  - [CSV->S3] (https://github.com/alexbuz/S3_File_Uploader/blob/master/README.md) data uploader.
+  - [EC2 Metcics Plotter](https://github.com/alexbuz/EC2_Metrics_Plotter/blob/master/README.md)
+  - [Oracle->Oracle](https://github.com/alexbuz/TabZilla/blob/master/README.md) data loader.
+  - [Oracle->MySQL](https://github.com/alexbuz/Oracle-to-MySQL-DataMigrator/blob/master/README.txt) data loader.
+  - [CSV->S3](https://github.com/alexbuz/S3_File_Uploader/blob/master/README.md) data uploader.
  
-##Purpose
+## Purpose
 
 - Generate plots for AWS-ECS metrics and statistics.
 - Helps you generate plots on demand and review them using generated html report.
@@ -39,14 +39,14 @@ Compiled using PyInstaller
 - Html report is generated allowing preview saved metric plots.
 - It will not work for group CloudWatch EC2 instances metrics.
 
-##Audience
+## Audience
 
 Database/ETL developers, Data Integrators, Data Engineers, Business Analysts, AWS Developers, DevOps
 
-##Designated Environment
+## Designated Environment
 Pre-Prod (UAT/QA/DEV)
 
-##Usage
+## Usage
 
 ```
 C:\Python35-32>dist\ec2metrics\ec2metrics.exe
@@ -89,7 +89,7 @@ Usage:
 
 ```
 
-##Environment variables
+## Environment variables
 
 ```
   set AWS_ACCESS_KEY_ID=<you access key>
@@ -97,7 +97,7 @@ Usage:
   set AWS_DEFAULT_REGION=<your region > (for example:us-west-2 )
 ```
 
-#Examples
+# Examples
 
 ### Plot "Average,Minimum" for "NetworkIn" CloudWatch EC2 metric.
 
@@ -115,7 +115,7 @@ Report is at: C:\Python35-32\plots\20160327_220118\index.html
 
 ```
 
-####Result:
+#### Result:
 
 ![NetworkIn/Average/10min] (https://raw.githubusercontent.com/alexbuz/EC2_Metrics_Plotter/master/plots/EC2_NetworkIn/by_metric/NetworkIn/Average/10/NetworkIn.Average.10.i-fe9cea26.png)
 
@@ -140,7 +140,7 @@ Report is at: c:\Python35-32\plots\20160328_113906\index.html
 
 ```
 
-####Result:
+#### Result:
 
 ![CPUCreditUsage/Average/30min] (https://raw.githubusercontent.com/alexbuz/EC2_Metrics_Plotter/master/plots/CPUUtilization/by_instance/i-fe9cea26/1/CPUUtilization.Average.1.i-fe9cea26.png)
 
@@ -159,7 +159,7 @@ Report is at: c:\Python35-32\plots\CPUCreditUsage\index.html
 
 ```
 
-####Result:
+#### Result:
 
 ![CPUCreditUsage/Average/30min] (https://raw.githubusercontent.com/alexbuz/EC2_Metrics_Plotter/master/plots/CPUCreditUsage/by_metric/CPUCreditUsage/Average/30/CPUCreditUsage.Average.30.i-fe9cea26.png)
 
@@ -186,7 +186,7 @@ Report is at: C:\Python35-32\plots\All_Metrics\index.html
 
 ```
 
-####Result:
+#### Result:
 One of the plots:
 ![NetworkIn/Average/10min] (https://raw.githubusercontent.com/alexbuz/EC2_Metrics_Plotter/master/plots/CPUCreditBalance/by_instance/i-fe9cea26/30/CPUCreditBalance.Sum.30.i-fe9cea26.png)
 
@@ -195,12 +195,12 @@ Report is generated with preview for all plots created with this job.
 ![ALL](https://raw.githubusercontent.com/alexbuz/EC2_Metrics_Plotter/master/plot_reports/all.png)
 
 
-##Download
+## Download
 * [Master Release](https://github.com/alexbuz/EC2_Metrics_Plotter/archive/master.zip) -- `ec2metrics 0.1.0`
 
 
 #   
-#FAQ
+# FAQ
 #  
 #### Can I genereate images of all metrics?
 Yes, it is the main purpose of this tool.
@@ -259,6 +259,6 @@ Yes, [AWS Certified Developer (Associate)](https://raw.githubusercontent.com/ale
 Yes, you can PM me here or email at `alex_buz@yahoo.com`.
 I'll get back to you within hours.
 
-###Links
+### Links
  - [Employment FAQ](https://github.com/alexbuz/FAQs/blob/master/README.md)
 
