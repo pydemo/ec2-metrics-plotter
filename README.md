@@ -117,7 +117,7 @@ Report is at: C:\Python35-32\plots\20160327_220118\index.html
 
 #### Result:
 
-![NetworkIn/Average/10min] (https://raw.githubusercontent.com/alexbuz/EC2_Metrics_Plotter/master/plots/EC2_NetworkIn/by_metric/NetworkIn/Average/10/NetworkIn.Average.10.i-fe9cea26.png)
+![NetworkIn/Average/10min](https://raw.githubusercontent.com/alexbuz/EC2_Metrics_Plotter/master/plots/EC2_NetworkIn/by_metric/NetworkIn/Average/10/NetworkIn.Average.10.i-fe9cea26.png)
 
 #### Html report
 Report is generated with preview for all plots created with this job.
@@ -142,7 +142,7 @@ Report is at: c:\Python35-32\plots\20160328_113906\index.html
 
 #### Result:
 
-![CPUCreditUsage/Average/30min] (https://raw.githubusercontent.com/alexbuz/EC2_Metrics_Plotter/master/plots/CPUUtilization/by_instance/i-fe9cea26/1/CPUUtilization.Average.1.i-fe9cea26.png)
+![CPUCreditUsage/Average/30min](https://raw.githubusercontent.com/alexbuz/EC2_Metrics_Plotter/master/plots/CPUUtilization/by_instance/i-fe9cea26/1/CPUUtilization.Average.1.i-fe9cea26.png)
 
 
 ### Plot "Sum,Maximum,Minimum,SampleCount,Average" stats for "CPUCreditUsage" CloudWatch EC2 metric.
@@ -161,7 +161,7 @@ Report is at: c:\Python35-32\plots\CPUCreditUsage\index.html
 
 #### Result:
 
-![CPUCreditUsage/Average/30min] (https://raw.githubusercontent.com/alexbuz/EC2_Metrics_Plotter/master/plots/CPUCreditUsage/by_metric/CPUCreditUsage/Average/30/CPUCreditUsage.Average.30.i-fe9cea26.png)
+![CPUCreditUsage/Average/30min](https://raw.githubusercontent.com/alexbuz/EC2_Metrics_Plotter/master/plots/CPUCreditUsage/by_metric/CPUCreditUsage/Average/30/CPUCreditUsage.Average.30.i-fe9cea26.png)
 
 
 ### Plot all stats for all CloudWatch EC2 metrics.
@@ -188,7 +188,7 @@ Report is at: C:\Python35-32\plots\All_Metrics\index.html
 
 #### Result:
 One of the plots:
-![NetworkIn/Average/10min] (https://raw.githubusercontent.com/alexbuz/EC2_Metrics_Plotter/master/plots/CPUCreditBalance/by_instance/i-fe9cea26/30/CPUCreditBalance.Sum.30.i-fe9cea26.png)
+![NetworkIn/Average/10min](https://raw.githubusercontent.com/alexbuz/EC2_Metrics_Plotter/master/plots/CPUCreditBalance/by_instance/i-fe9cea26/30/CPUCreditBalance.Sum.30.i-fe9cea26.png)
 
 #### Html report
 Report is generated with preview for all plots created with this job.
