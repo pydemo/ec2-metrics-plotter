@@ -17,6 +17,9 @@ Included:
 Wrote using Python/boto3.
 Compiled using PyInstaller
 
+
+[<img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png">](https://www.buymeacoffee.com/0nJ32Xg)
+
 ## Other scripts
   - [DataWorm for Oracle](https://github.com/alexbuz/DataWorm/blob/master/README.md) ad-hoc backup.
   - [TableHunter for Oracle](https://github.com/alexbuz/TableHunter-For-Oracle) Win OS spooler
@@ -265,3 +268,5 @@ I'll get back to you within hours.
 ### Links
  - [Employment FAQ](https://github.com/alexbuz/FAQs/blob/master/README.md)
 
+
+[<img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png">](https://www.buymeacoffee.com/0nJ32Xg)
