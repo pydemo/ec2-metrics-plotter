@@ -18,21 +18,20 @@ Wrote using Python/boto3.
 Compiled using PyInstaller
 
 
-[<img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png">](https://www.buymeacoffee.com/0nJ32Xg)
 
 ## Other scripts
-  - [DataWorm for Oracle](https://github.com/alexbuz/DataWorm/blob/master/README.md) ad-hoc backup.
-  - [TableHunter for Oracle](https://github.com/alexbuz/TableHunter-For-Oracle) Win OS spooler
+  - [DataWorm for Oracle](https://github.com/pydemo/DataWorm/blob/master/README.md) ad-hoc backup.
+  - [TableHunter for Oracle](https://github.com/pydemo/TableHunter-For-Oracle) Win OS spooler
   
-  - [Oracle -> Redshift](https://github.com/alexbuz/Oracle-To-Redshift-Data-Loader/blob/master/README.md) data loader
-  - [PostgreSQL -> Redshift](https://github.com/alexbuz/PostgreSQL_To_Redshift_Loader/blob/master/README.md) data loader
-  - [MySQL -> Redshift](https://github.com/alexbuz/MySQL_To_Redshift_Loader/blob/master/README.md) data loader
-  - [Oracle -> S3](https://github.com/alexbuz/Oracle_To_S3_Data_Uploader/blob/master/README.md) data loader
-  - [CSV -> Redshift](https://github.com/alexbuz/CSV_Loader_For_Redshift/blob/master/README.md) data loader
-  - [EC2 Metcics Plotter](https://github.com/alexbuz/EC2_Metrics_Plotter/blob/master/README.md)
-  - [Oracle->Oracle](https://github.com/alexbuz/TabZilla/blob/master/README.md) data loader.
-  - [Oracle->MySQL](https://github.com/alexbuz/Oracle-to-MySQL-DataMigrator/blob/master/README.txt) data loader.
-  - [CSV->S3](https://github.com/alexbuz/S3_File_Uploader/blob/master/README.md) data uploader.
+  - [Oracle -> Redshift](https://github.com/pydemo/Oracle-To-Redshift-Data-Loader/blob/master/README.md) data loader
+  - [PostgreSQL -> Redshift](https://github.com/pydemo/PostgreSQL_To_Redshift_Loader/blob/master/README.md) data loader
+  - [MySQL -> Redshift](https://github.com/pydemo/MySQL_To_Redshift_Loader/blob/master/README.md) data loader
+  - [Oracle -> S3](https://github.com/pydemo/Oracle_To_S3_Data_Uploader/blob/master/README.md) data loader
+  - [CSV -> Redshift](https://github.com/pydemo/CSV_Loader_For_Redshift/blob/master/README.md) data loader
+  - [EC2 Metcics Plotter](https://github.com/pydemo/EC2_Metrics_Plotter/blob/master/README.md)
+  - [Oracle->Oracle](https://github.com/pydemo/TabZilla/blob/master/README.md) data loader.
+  - [Oracle->MySQL](https://github.com/pydemo/Oracle-to-MySQL-DataMigrator/blob/master/README.txt) data loader.
+  - [CSV->S3](https://github.com/pydemo/S3_File_Uploader/blob/master/README.md) data uploader.
  
 ## Purpose
 
@@ -127,7 +126,7 @@ Report is at: C:\Python35-32\plots\20160327_220118\index.html
 
 #### Html report
 Report is generated with preview for all plots created with this job.
-![ALL](https://raw.githubusercontent.com/alexbuz/EC2_Metrics_Plotter/master/plot_reports/networkin.png)
+![ALL](https://raw.githubusercontent.com/pydemo/ec2-metrics-plotter/master/plot_reports/networkin.png)
 
 
 
@@ -148,7 +147,7 @@ Report is at: c:\Python35-32\plots\20160328_113906\index.html
 
 #### Result:
 
-![CPUCreditUsage/Average/30min](https://raw.githubusercontent.com/alexbuz/EC2_Metrics_Plotter/master/plots/CPUUtilization/by_instance/i-fe9cea26/1/CPUUtilization.Average.1.i-fe9cea26.png)
+![CPUCreditUsage/Average/30min](https://raw.githubusercontent.com/pydemo/ec2-metrics-plotter/master/plots/CPUUtilization/by_instance/i-fe9cea26/1/CPUUtilization.Average.1.i-fe9cea26.png)
 
 
 ### Plot "Sum,Maximum,Minimum,SampleCount,Average" stats for "CPUCreditUsage" CloudWatch EC2 metric.
@@ -167,7 +166,7 @@ Report is at: c:\Python35-32\plots\CPUCreditUsage\index.html
 
 #### Result:
 
-![CPUCreditUsage/Average/30min](https://raw.githubusercontent.com/alexbuz/EC2_Metrics_Plotter/master/plots/CPUCreditUsage/by_metric/CPUCreditUsage/Average/30/CPUCreditUsage.Average.30.i-fe9cea26.png)
+![CPUCreditUsage/Average/30min](https://raw.githubusercontent.com/pydemo/ec2-metrics-plotter/master/plots/CPUCreditUsage/by_metric/CPUCreditUsage/Average/30/CPUCreditUsage.Average.30.i-fe9cea26.png)
 
 
 ### Plot all stats for all CloudWatch EC2 metrics.
@@ -194,15 +193,15 @@ Report is at: C:\Python35-32\plots\All_Metrics\index.html
 
 #### Result:
 One of the plots:
-![NetworkIn/Average/10min](https://raw.githubusercontent.com/alexbuz/EC2_Metrics_Plotter/master/plots/CPUCreditBalance/by_instance/i-fe9cea26/30/CPUCreditBalance.Sum.30.i-fe9cea26.png)
+![NetworkIn/Average/10min](https://raw.githubusercontent.com/pydemo/ec2-metrics-plotter/master/plots/CPUCreditBalance/by_instance/i-fe9cea26/30/CPUCreditBalance.Sum.30.i-fe9cea26.png)
 
 #### Html report
 Report is generated with preview for all plots created with this job.
-![ALL](https://raw.githubusercontent.com/alexbuz/EC2_Metrics_Plotter/master/plot_reports/all.png)
+![ALL](https://raw.githubusercontent.com/pydemo/ec2-metrics-plotter/master/plot_reports/all.png)
 
 
 ## Download
-* [Master Release](https://github.com/alexbuz/EC2_Metrics_Plotter/archive/master.zip) -- `ec2metrics 0.1.0`
+* [Master Release](https://github.com/pydemo/ec2-metrics-plotter/archive/master.zip) -- `ec2metrics 0.1.0`
 
 
 #   
@@ -252,21 +251,21 @@ Please, contact me for sources.
 Yes, please, ask me for new features.
 
 #### What other AWS tools you've created?
-- [Oracle_To_S3_Data_Uploader] (https://github.com/alexbuz/Oracle_To_S3_Data_Uploader) - Stream Oracle data to Amazon- S3.
-- [CSV_Loader_For_Redshift] (https://github.com/alexbuz/CSV_Loader_For_Redshift/blob/master/README.md) - Append CSV data to Amazon-Redshift from Windows.
-- [S3_Sanity_Check] (https://github.com/alexbuz/S3_Sanity_Check/blob/master/README.md) - let's you `ping` Amazon-S3 bucket to see if it's publicly readable.
-- [Oracle-To-Redshift-Data-Loader](https://github.com/alexbuz/Oracle-To-Redshift-Data-Loader) - plots any CloudWatch EC2 instance  metric stats.
-- [S3_File_Uploader](https://github.com/alexbuz/S3_File_Uploader/blob/master/README.md) - uploads file from Windows to S3.
+- [Oracle_To_S3_Data_Uploader] (https://github.com/pydemo/Oracle_To_S3_Data_Uploader) - Stream Oracle data to Amazon- S3.
+- [CSV_Loader_For_Redshift] (https://github.com/pydemo/CSV_Loader_For_Redshift/blob/master/README.md) - Append CSV data to Amazon-Redshift from Windows.
+- [S3_Sanity_Check] (https://github.com/pydemo/S3_Sanity_Check/blob/master/README.md) - let's you `ping` Amazon-S3 bucket to see if it's publicly readable.
+- [Oracle-To-Redshift-Data-Loader](https://github.com/pydemo/Oracle-To-Redshift-Data-Loader) - plots any CloudWatch EC2 instance  metric stats.
+- [S3_File_Uploader](https://github.com/pydemo/S3_File_Uploader/blob/master/README.md) - uploads file from Windows to S3.
 
 #### Do you have any AWS Certifications?
-Yes, [AWS Certified Developer (Associate)](https://raw.githubusercontent.com/alexbuz/FAQs/master/images/AWS_Ceritied_Developer_Associate.png)
+Yes, [AWS Certified Developer (Associate)](https://raw.githubusercontent.com/pydemo/FAQs/master/images/AWS_Ceritied_Developer_Associate.png)
 
 #### Can you create similar/custom data tool for our business?
 Yes, you can PM me here or email at `alex_buz@yahoo.com`.
 I'll get back to you within hours.
 
 ### Links
- - [Employment FAQ](https://github.com/alexbuz/FAQs/blob/master/README.md)
+ - [Employment FAQ](https://github.com/pydemo/FAQs/blob/master/README.md)
 
 
 [<img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png">](https://www.buymeacoffee.com/0nJ32Xg)
