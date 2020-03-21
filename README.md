@@ -123,7 +123,7 @@ Report is at: C:\Python35-32\plots\20160327_220118\index.html
 
 #### Result:
 
-![NetworkIn/Average/10min](https://raw.githubusercontent.com/alexbuz/EC2_Metrics_Plotter/master/plots/EC2_NetworkIn/by_metric/NetworkIn/Average/10/NetworkIn.Average.10.i-fe9cea26.png)
+![NetworkIn/Average/10min](https://raw.githubusercontent.com/pydemo/ec2-metrics-plotter/master/plots/EC2_NetworkIn/by_metric/NetworkIn/Average/10/NetworkIn.Average.10.i-fe9cea26.png)
 
 #### Html report
 Report is generated with preview for all plots created with this job.
